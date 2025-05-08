@@ -18,7 +18,7 @@ const Footer = () => {
             Test your knowledge, win exciting prizes daily and weekly!
           </p>
         </div>
-        <div className="flex justify-center space-x-6 mb-8">
+        {/* <div className="flex justify-center space-x-6 mb-8">
           <a
             href="#"
             className="text-gray-300 hover:text-white transition-colors duration-300"
@@ -37,7 +37,7 @@ const Footer = () => {
           >
             <FaInstagram size={24} />
           </a>
-        </div>
+        </div> */}
         <p className="text-sm text-gray-400">
           &copy; {new Date().getFullYear()} Cashout Play by MSR Innovations
           Nigeria Limited. All rights reserved.
